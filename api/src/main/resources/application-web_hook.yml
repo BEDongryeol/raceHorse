@@ -1,5 +1,0 @@
-dataGo:
-  kra:
-    baseUrl: https://apis.data.go.kr/B551015/API16_1
-    path:
-      clinic: /raceHorseClinic_1?ServiceKey=cEycBr%2BPVK%2F1LE5useAIrIFGWMMUGOhrqcNWoZyOYEUVhtjI9173faCyJpSkUdVx8oz45inEObBbwlgVaE3kvw%3D%3D
