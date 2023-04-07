@@ -1,13 +1,13 @@
-package com.racehorse.race.database;
+package com.racehorse.race;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DatabaseApplication {
+public class RaceApiApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(DatabaseApplication.class, args);
+        SpringApplication.run(RaceApiApplication.class, args);
     }
 
 }
