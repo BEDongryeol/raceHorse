@@ -1,0 +1,12 @@
+rootProject.name = 'raceHorse'
+
+includeProject(":api", "api")
+includeProject(":database", "database")
+includeProject(":domain", "domain")
+
+def includeProject(name, projectPath) {
+    include name
+    if (projectPath != null) {
+        project(name).projectDir = file(projectPath)
+    }
+}
