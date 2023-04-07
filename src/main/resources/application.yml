@@ -1,0 +1,13 @@
+spring:
+  config:
+    activate:
+      on-profile: local-pod
+server:
+  port: 8080
+
+---
+
+spring:
+  profiles:
+    group:
+      local-pod: local_rdb, open_api
