@@ -2,13 +2,14 @@
 HELP.md
 .gradle
 build/
-!gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
 !**/src/test/**/build/
+
 
 ### setting
 .yml
 *gradle*
+.gitignore
 
 ### STS ###
 .apt_generated
